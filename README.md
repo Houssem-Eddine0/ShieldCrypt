@@ -1,5 +1,3 @@
-# ShieldCrypt
-
 # ShieldCrypt - Solution de cryptage de documents
 
 ShieldCrypt est une application sécurisée permettant le cryptage et le décryptage de fichiers sensibles. Ce projet a été conçu dans le cadre du module de cryptage, avec une équipe de trois membres spécialisés dans le développement et la sécurité informatique.
