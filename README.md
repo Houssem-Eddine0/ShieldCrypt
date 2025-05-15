@@ -8,14 +8,14 @@ ShieldCrypt est une application sécurisée permettant le cryptage et le décryp
 - Formation sur l'utilisation de **KeePass** pour la gestion des mots de passe.
 
 ## 👥 Équipe
-- **Houssem** - Développement du cryptage
-- **Djibril** - Facturation et gestion financière
-- **Kheyreddine** - Interface utilisateur (UI/UX)
+- **Houssem** 
+- **Djibril** 
+- **Kheyreddine** 
 
 ## 🔧 Technologies
-- Langage utilisé : [ex. Python, JavaScript…]
-- Frameworks : [ex. Flask, React…]
-- Méthodes de cryptage : [ex. AES, RSA…]
+- Langage utilisé : Python, JavaScript…
+- Frameworks : Flask, React…
+- Méthodes de cryptage : AES, RSA…
 
 ## 📂 Structure du Repo
 
