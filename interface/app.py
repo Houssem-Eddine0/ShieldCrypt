@@ -4,6 +4,11 @@ import subprocess
 
 app = Flask(__name__)
 
+@app.route("/encrypt", methods=["POST"])
+def encrypt():
+    subprocess.run(["./encrypt", "input.txt", "encrypted.txt"])
+    return {"message": "Cryptage réussi"}
+
 @app.route("/decrypt", methods=["POST"])
 def decrypt():
     data = request.json

@@ -1,0 +1,19 @@
+# Étapes de test
+
+1️⃣ Ajouter les utilisateurs et générer les clés :
+   - Exécuter : python database/setup_users.py
+
+2️⃣ Vérifier les données dans MongoDB :
+   - Exécuter : python tests/test_mongo.py
+
+3️⃣ Cryptage d’un texte :
+   - Compiler : g++ -o encrypt backend/encryption/encrypt.cpp $(pkg-config --cflags --libs openssl)
+   - Exécuter : ./encrypt
+
+4️⃣ Décryptage du texte :
+   - Compiler : g++ -o decrypt backend/encryption/decrypt.cpp $(pkg-config --cflags --libs openssl)
+   - Exécuter : ./decrypt
+
+5️⃣ Tester l’API Flask :
+   - Exécuter : python interface/app.py
+   - Envoyer une requête POST à /encrypt et /decrypt
